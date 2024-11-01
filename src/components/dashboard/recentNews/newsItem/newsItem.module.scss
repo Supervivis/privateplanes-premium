@@ -1,0 +1,29 @@
+.news_item_row {
+  display: flex;
+  box-shadow: 0px 21px 19px -9px #0000000D;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 0.75rem;
+  border: 1px solid #EBECF2;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  p {
+    margin: 0px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: underline!important;
+    color: #8000FF!important;
+  }
+}
+
+.date_content {
+  flex-shrink: 0;
+}
